@@ -1,0 +1,51 @@
+header {
+    background-color: #2088E8;
+    border-bottom: 10px solid #B787F0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+a {    
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration:none;
+    margin-right: 30px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+
+}
+#button {
+    display: inline-block;
+    background-color: #7CF037;
+    height: 60px;
+    line-height: 60px;
+    padding : 18px 20px;
+    box-shadow: 5px 5px 0 #000;
+}
+
+a::before {
+    content: "";
+    background-color: #7CF037;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    text-align: right;
+}
+
+#button:hover {
+    font-size: 25px;
+    box-shadow:  10px 10px 0 #000;
+}
+
+ p1 {    
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-size: 30px;
+ }
